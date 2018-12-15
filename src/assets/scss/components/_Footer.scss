@@ -1,0 +1,49 @@
+
+.info-box {
+	position:relative;
+	padding-bottom:30px;
+}
+.info-box .icon {
+	display:inline-block;
+	width: 30px;
+}
+.info-box .icon i {
+	font-size: 20px;
+	color: #ab2f52;
+}
+.info-box .content {
+	display:inline-block;
+	margin-left:10px;
+}
+.info-box .content h4 {
+	font-size: 20px;
+}
+.contact-form input, .contact-form textarea {
+	border: none;
+	border-bottom: 1px solid #1c1c1c;
+	border-radius: 0;
+	padding: 10px 10px 10px 0;
+	margin-bottom: 20px;
+	font-size: 14px;
+	width:100%;
+}
+.bttn {
+	position: relative;
+	cursor: pointer;
+	color: #fff;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background: #ab2f52;
+	padding: 12px 45px;
+	font-size: 15px;
+	border-radius: 30px;
+	margin-top: 30px;
+	border: none;
+}
+.footer-copy {
+	background: #242424;
+	color: #ffffff;
+	font-size: 13px;
+	text-align: center;
+	padding:7px 0px;
+}

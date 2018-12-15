@@ -1,0 +1,38 @@
+.service-box {
+	padding: 50px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+}
+.service-box .icon {
+}
+.service-box .icon i {
+	font-size: 40px;
+	color: #ffaf53;
+}
+
+.icon-text {
+}
+.icon-text h4 {
+	font-size: 16px;
+	font-weight: 600;
+	margin: 10px 0px;
+	position: relative;
+	padding-bottom: 14px;
+}
+.icon-text h4:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 60px;
+	height: 2px;
+	background-color: #bcbcbc;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	left: calc(50% - 30px);
+}
+.icon-text p {
+	line-height: 25px;
+	font-weight: 300;
+}
